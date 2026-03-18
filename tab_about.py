@@ -37,9 +37,9 @@ def render_about():
         with c2:
             st.markdown(
                 """
-                **Dr. Dinosaur N.K.U**  
+                **Le Quoc Nam & Dr. Nguyen Kim Uyen**  
                 App Developer  
-                Email: kimuyendlu@gmail.com  
+                Email: aaaa@gmail.com  
                 Phone: 010-xxxx-xxxx
                 """
             )
