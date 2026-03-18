@@ -1173,7 +1173,7 @@ def render_designing():
 
         def codec_controls(prefix: str, default_codec_mode: str = "TABLE"):
             st.markdown("### Initial Parameter")
-            mode_label = st.selectbox("Mode", ["Simple Mapping", "Table Mapping"], index=(0 if default_codec_mode == "SIMPLE" else 1), key=f"{prefix}_codec_mode")
+            mode_label = st.selectbox("Mode", ["Simple Mapping", "Rule-base"], index=(0 if default_codec_mode == "SIMPLE" else 1), key=f"{prefix}_codec_mode")
             codec_mode = "SIMPLE" if mode_label == "Simple Mapping" else "TABLE"
             scheme_name = "RINF_B16"
             init_dimer = "TA"
